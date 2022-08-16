@@ -1,0 +1,6 @@
+type ExampleEntity @entity {
+  id: ID!
+  count: BigInt!
+  eventID: Bytes! # bytes32
+  attendeeAddress: Bytes! # address
+}
